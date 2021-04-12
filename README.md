@@ -6,7 +6,6 @@ This project is simple simulator  fight between gladiators.
 Projest is in console.
 	
 ## Is this project is used
-*  Attribute
 *  Reflection
 *  Tournament Binary Tree
 
