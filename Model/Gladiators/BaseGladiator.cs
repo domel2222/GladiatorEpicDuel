@@ -9,22 +9,22 @@ namespace GladiatorEpicDuels
     public abstract class BaseGladiator
     {
 
-        public abstract bool IsDeath { get; protected set; }
+        public  bool IsDeath { get; protected set; }
 
-        public abstract int Level { get; protected set; }
+        public  int Level { get; protected set; }
         public abstract string FullName { get; protected set; } 
 
         public abstract string SpecialTechniqueName { get; protected set; }
         public abstract double HpFactor { get; protected set; }
         public abstract double SpeedFactor { get; protected set; }
         public abstract double DexterityFactor { get; protected set; }
-        public abstract double HP { get; protected set; }
-        public abstract double Speed { get; protected set; }
-        public abstract double BaseHp  { get; protected set; }
-        public abstract double BaseSp  { get; protected set; }
-        public abstract double BaseDex  { get; protected set; }
-        public abstract double Dexterity {get; protected set; }
-        public abstract double CurrentHp { get; protected set; }
+        public  double HP { get; protected set; }
+        public  double Speed { get; protected set; }
+        public  double BaseHp  { get; protected set; }
+        public  double BaseSp  { get; protected set; }
+        public  double BaseDex  { get; protected set; }
+        public  double Dexterity {get; protected set; }
+        public  double CurrentHp { get; protected set; }
 
         public abstract double TechniqueProbability { get; protected set; } 
         protected BaseGladiator(int hp, int lv, int sp, int dex)
